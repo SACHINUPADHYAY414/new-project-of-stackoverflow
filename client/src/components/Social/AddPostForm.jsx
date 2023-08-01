@@ -13,7 +13,7 @@ export const AddPostForm = () => {
   const [error, setError] = useState("");
   const dispatch = useDispatch();
 
-  const [isImage, setIsImage] = useState(false);
+  const [isImage, setIsImage] = useState(true);
 
   const navigate = useNavigate();
 
